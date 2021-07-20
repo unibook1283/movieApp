@@ -1,0 +1,13 @@
+1. git에서 받아올 때, package.json에 있는 dependencies를
+다 받아줘야된다. package.json이 있는 디렉토리에 가서 
+npm i 하면됨.
+
+2. /server/config 에다가 dev.js가 없으니 만들어주고,
+ 내 mongoDB 주소를 넣어줘야됨.
+
+3. api 가져올건데, 계속 중복적으로 사용되는 앞부분은 Config.json에
+ 따로 저장해줌.
+ export const API_URL = 'hhtps://api/themoviedb.org/3/';
+
+export const IMAGE_BASE_URL = 'http://image.tmdb.org/t/p/'
+
